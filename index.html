@@ -612,98 +612,134 @@
         // ========== ДАННЫЕ САЙТА — ВСЕ 9 КНИГ С ФОРМАТИРОВАННЫМ ТЕКСТОМ ГЛАВ ==========
         const booksData = [
             {
-                id: 'empire-of-storms',
-                title: 'Империя шторма',
-                coverDesc: 'цикл «Ветра зимы»',
-                description: 'Мрачное эпическое фэнтези, где магия крови сталкивается с железными тронами.',
-                plot: 'Сюжет книги "Империя шторма" рассказывает о борьбе за трон в разорённом магией мире.',
+                id: 'rot-in-the-garden-of-eden',
+                title: 'Гниль в райском саду',
+                coverDesc: 'фэнтези',
+                description: 'Тёмное фэнтези с элементами психологической драмы и моральной аллегории.',
                 chapters: [
                     { 
                         id: 'ch1', 
-                        title: 'Пролог: Пепел прошлого', 
-                        content: `<p>Кайлен просыпается в руинах крепости. Воспоминания о предательстве короля жгут сильнее ран. Он решает собрать отряд изгнанников.</p>
-<p>За окнами крепости воют ветры, а в воздухе пахнет пеплом и магией. Кайлен знает, что где-то в этих руинах спрятан древний артефакт, способный вернуть ему силу.</p>
-<p>Он встаёт, отряхивает плащ и идёт к выходу из зала. Впереди его ждёт долгий путь.</p>` 
+                        title: 'Пролог: Знакомство с Малахитом.', 
+                        content: `<p>Сад шептал. 
+						Не голосами птиц или журчанием фонтана, а тихим, зудящим бормотанием отчаяния.
+						Здесь, под сенью увитых розами арок беседки, томился Малахит, некогда бич небес, теперь – садовник поневоле.</p>
+                       <p>Просторный дом, маячивший за зарослями лаванды, был не убежищем, а злой иронией.
+						В его стенах кипела жизнь: смех детей, звон посуды, тепло камина.
+						Всё, чего Малахит, демонический князь, мог коснуться лишь своей ненавистью.
+						Его заточили сюда, в это воплощение мирского благополучия, чтобы он познал бессилие перед простой радостью.</p>
+                       <p>Заклинание плела не колдунья, а ангел. Ее голос, как колокольный звон, сковал его душу с этой землей.
+						Он должен был охранять сад, оберегать его от скверны, которой сам был пропитан.
+						Каждая взрыхленная им грядка, каждый политый цветок обжигали его демоническую плоть.</p> 
+					   <p>Но Малахит был терпелив. Он знал: даже рай может скрывать гниль.
+						Он видел, как в тени дома зреют зависть и ложь.
+						Он чувствовал, как сад, впитанный его тьмой, источает удушливый аромат лицемерия.
+						И ждал. Ждал момента, когда хрупкий фасад счастья рухнет, и тогда, из пепла этой идиллической тюрьмы, он вновь восстанет, не демоном-садовником, а Князем Разрушения. 
+						Его месть будет не громкой, а тихой, въедливой, словно яд, просочившийся в самые корни этого проклятого сада.</p>`
                     },
                     { 
                         id: 'ch2', 
-                        title: 'Глава 1: Ведьма из тумана', 
-                        content: `<p>Вериния Эш появляется перед Кайленом, требуя защиты от охотников за головами. В обмен она предлагает магическую помощь.</p>
-<p>Кайлен не доверяет тёмным эльфам, но выбора нет. Он соглашается, и они заключают союз, скреплённый кровью.</p>` 
+                        title: 'Глава 1', 
+                        content: `<p></p>
+<p></p>` 
                     },
                     { 
                         id: 'ch3', 
-                        title: 'Глава 2: Перевал душ', 
-                        content: `<p>Отряд попадает в засаду. Вериния использует запретную магию, чтобы спасти всех, но это привлекает внимание Тёмного совета.</p>
-<p>Кайлен понимает, что теперь за ними охотятся не только люди, но и могущественные маги.</p>` 
+                        title: 'Глава 2', 
+                        content: `<p></p>` 
                     }
                 ],
                 characters: [
                     { 
-                        name: 'Кайлен Львиное Сердце', 
-                        folder: 'kaylen', 
-                        refs: 'Полководец изгнанник, 27 лет, шрам на левой брови.', 
-                        story: 'Был предан своим королём, теперь ведёт отряд «Пепельные волки». Ищет древний артефакт.', 
+                        name: 'Князь Малахит', 
+                        folder: 'malachite', 
+                        refs: 'Демонический князь (он же Князь Разрушения). Бессмертен. Внешне — мужчина с бледной кожей и глазами цвета ядовитого малахита. На левом запястье — знак Сковывания, нанесённый ангелом, который пульсирует болью при попытке покинуть сад. Его движения плавны, но исполнены сдерживаемой ярости. Каждое прикосновение к живому причиняет ему физические страдания.', 
+                        story: 'Некогда грозный Бич Небес, участвовавший в первой войне против Света, Малахит пал не в битве, а от изощрённой жестокости милосердия. Ангел по имени Элемия не стала его уничтожать, а приговорила к «спасению через труд». Она запечатала его душу в смертном саду, приковав к земле заклятием, которое вынуждает его лелеять жизнь — то, что он больше всего ненавидит. Вокруг кипит беззаботное счастье семьи, живущей в доме, но Малахит видит лишь фальшь. Годы, текущие как смола, он провёл в поисках слабого места в заклятии. Он понял: тюрьма рухнет, если он сможет доказать, что этот «рай» прогнил изнутри. Сейчас он — терпеливый наблюдатель, сеющий семена раздора и ждущий, когда его «сад» принесёт урожай ненависти, чтобы восстать из пепла уже не садовником, а Князем Разрушения.', 
                         arts: [
-                            { thumb: 'https://sun59-2.userapi.com/s/v1/ig2/IiZJrD-mUHids-OYMiysQiCWgtIbUVWaYn1Lwf7CNV2qNtEeI-jQ8cSwKZA7mG_tlNCEv4PwtkiHRGKgmavo18Fx.jpg?quality=95&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720,1080x1080,1280x1280,1440x1440,2000x2000&from=bu&cs=2000x0', full: 'https://sun59-2.userapi.com/s/v1/ig2/IiZJrD-mUHids-OYMiysQiCWgtIbUVWaYn1Lwf7CNV2qNtEeI-jQ8cSwKZA7mG_tlNCEv4PwtkiHRGKgmavo18Fx.jpg?quality=95&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720,1080x1080,1280x1280,1440x1440,2000x2000&from=bu&cs=2000x0' },
-                            { thumb: 'https://via.placeholder.com/100x100/A0522D/FFFFFF?text=арт2', full: 'https://via.placeholder.com/800x600/A0522D/FFFFFF?text=Тату' },
-                            { thumb: 'https://via.placeholder.com/100x100/CD853F/FFFFFF?text=арт3', full: 'https://via.placeholder.com/800x600/CD853F/FFFFFF?text=Битва' }
+                            { thumb: 'https://2.downloader.disk.yandex.ru/preview/5af68612b4614da056b5e90fffbcbdcd321350ef2007f478d406269d5cba4930/inf/5EroFUTBLqNCrmkxEhAlqu0rDElR2Jd0C_QAkYtT2kx2qi7HiSxHp03jMeUtGjr0jK-ZUnfgHgIJ5hLHxvO3JQ%3D%3D?uid=1997596189&filename=%D0%BC%D0%B0%D0%BB%D0%B0%D1%85%D0%B8%D1%82_%D0%BC%D0%B8%D0%BD%D0%B8.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1997596189&tknv=v3&size=1897x826', full: 'https://2.downloader.disk.yandex.ru/preview/89c98a3048eb6251f148860ff504eafbb73a58e2113025713b41f8020e7baa41/inf/YKy1-jrL_jSlcIToj3DT4bidVk2mXqUfhY-L2kw3ARHBtyWC0pYl4LkspVM8pn_V_16dtUW0__XTN9KL44bHKg%3D%3D?uid=1997596189&filename=%D0%BC%D0%B0%D0%BB%D0%B0%D1%85%D0%B8%D1%82_%D1%84%D1%83%D0%BB.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1997596189&tknv=v3&size=1897x826' },
+                            { thumb: ' ', full: ' ' },
+                            { thumb: ' ', full: ' ' }
                         ]
                     },
                     { 
-                        name: 'Вериния Эш', 
-                        folder: 'verinia', 
-                        refs: 'Тёмная эльфийка, маг хаоса, 184 года.', 
-                        story: 'Последняя из рода Эш. Пытается снять проклятие со своей крови. Союзница Кайлена.', 
+                        name: 'Ангел Элемия', 
+                        folder: 'angel', 
+                        refs: 'Ангел Приговора (она же Вестница Тишины). Возраст неизвестен, выглядит на вечную молодость.  В движениях — пугающая безмятежность, в улыбке — ледяная доброта. Её голос действительно напоминает колокольный звон: чистый, пронзительный.', 
+                        story: 'Элемия не из тех ангелов, что сражаются на передовой. Она — палач милосердия. Именно к ней отправляли непокорных демонов, которых нельзя было убить, но можно было «исцелить». Малахит стал её самым трудным пациентом. Вместо меча она выбрала для него сад, вместо цепи — укоренение к земле. Она поселилась неподалёку, в скромном домике за лавандовым полем, чтобы наблюдать за своим «экспериментом» лично. Каждое утро она срезает розы для дома, не подозревая (или делая вид, что не подозревает), что цветы пропитаны ненавистью её пленника. ХХХ свято верит, что доброта и красота способны переплавить даже демоническую сущность. Она ждёт от Малахита покаяния. Она не понимает, что своей «заботой» растит не смирение, а идеальное оружие против себя самой. Их противостояние — это тихая война, где вместо клинков — взгляды, а вместо крови — аромат удушливого лицемерия.', 
                         arts: [
-                            { thumb: 'https://via.placeholder.com/100x100/5D3A1A/FFFFFF?text=ритуал', full: 'https://via.placeholder.com/800x600/5D3A1A/FFFFFF?text=Ритуальный+наряд' },
-                            { thumb: 'https://via.placeholder.com/100x100/7B3F00/FFFFFF?text=посох', full: 'https://via.placeholder.com/800x600/7B3F00/FFFFFF?text=Магический+посох' },
-                            { thumb: 'https://via.placeholder.com/100x100/9E5B3A/FFFFFF?text=лицо', full: 'https://via.placeholder.com/800x600/9E5B3A/FFFFFF?text=Лицо+крупно' }
+                            { thumb: 'https://2.downloader.disk.yandex.ru/preview/70197dcb2b0f17520f370b32d9841bb00ecdac0f1ff6199ff65f2e620d865f8d/inf/MB4MJYKkhC8SVGi70VrdsQOLsQFxhOxugjiiziAD0prNpPf3r88_O9-fUEpjnzgS7Jt27Bj0XCV0HBAPaIRhrw%3D%3D?uid=1997596189&filename=%D0%B0%D0%BD%D0%B3%D0%B5%D0%BB_%D0%BC%D0%B8%D0%BD%D0%B8.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1997596189&tknv=v3&size=1897x826', full: 'https://2.downloader.disk.yandex.ru/preview/34976cb9217a24c22f2f509a7e1f9c972927cf846b025307c79e009af6049425/inf/W-DjcwjCsbQNo06j_lkmKBSuPeUYlvuk50rmAHHdNGgipPcugWv2AideUkdqOHIPVaswnk5wUM_jOsuOxXuUDQ%3D%3D?uid=1997596189&filename=%D0%B0%D0%BD%D0%B3%D0%B5%D0%BB_%D1%84%D1%83%D0%BB.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1997596189&tknv=v3&size=1897x826' },
+                            { thumb: ' ', full: ' ' },
+                            { thumb: ' ', full: ' ' }
                         ]
                     }
                 ]
             },
             {
-                id: 'silver-ashes',
-                title: 'Серебряный пепел',
-                coverDesc: 'детектив в стиле нуар',
-                description: 'Городское фэнтези 1920-х. Частный сыщик расследует убийства, связанные с потусторонними.',
-                plot: 'Частный детектив Морган Кейн берётся за таинственное убийство в клубе "Альгамбра".',
+                id: 'sweet-nightmares-and-bitter-dreams',
+                title: 'Сладкие кошмары и горькие сны',
+                coverDesc: 'фэнтези, мистика, кошмары',
+                description: 'Бюро сновидений, которое отвечает за сны каждого человека на Земле.',
                 chapters: [
                     { 
                         id: 'ch1', 
-                        title: 'Глава 1: Дождливый вечер', 
-                        content: `<p>Морган сидит в офисе, когда входит женщина в длинном пальто. Она просит защитить её от "людей из тумана".</p>
-<p>Дождь барабанит по стеклу. Морган закуривает сигарету и слушает её историю. Он ещё не знает, что это дело изменит его жизнь.</p>` 
+                        title: 'Глава 1:', 
+                        content: `<p></p>
+                        <p></p>` 
                     },
                     { 
                         id: 'ch2', 
-                        title: 'Глава 2: Сирена', 
-                        content: `<p>Ивлин поёт в клубе, но Морган замечает, что её голос зачаровывает публику. Он понимает, что она не совсем человек.</p>
-<p>После выступления он подходит к ней, и она рассказывает правду: она сирена, и охотники хотят убить её.</p>` 
+                        title: 'Глава 2:', 
+                        content: `<p></p>
+                        <p></p>` 
                     }
                 ],
                 characters: [
                     { 
-                        name: 'Морган Кейн', 
-                        folder: 'morgan', 
-                        refs: 'частный детектив, ветеран, 45 лет, любит виски.', 
-                        story: 'Бывший полицейский. Видит призраков после ранения. Ищет убийцу сестры.', 
+                        name: 'Кассиэль', 
+                        folder: 'cassiel', 
+                        refs: 'Младший ангел-архитектор снов (он же Хранитель Неправильных Снов). Выглядит на пятнадцать человеческих лет, хотя его истинный возраст исчисляется парой столетий — по небесным меркам сущий младенец. Крылья покрыты мягким пушком с редкими перьями, которые топорщатся в разные стороны, словно у взъерошенного воробья. У него открытое веснушчатое лицо, вечно перепачканное золотой пылью, и глаза, горящие искренним желанием сделать мир лучше — даже если для этого придется нарушить все инструкции.', 
+                        story: 'Кассиэль готовился стать ангелом-хранителем, но из-за бюрократической ошибки в Небесной Канцелярии (куда подали не те бланки, заверенные не теми серафимами) оказался в Звездном Бюро Снов. Возвращать и переоформлять было некогда — в Бюро начиналась утренняя сверка, и требовались лишние руки. Так Кассиэль попал под крыло (во всех смыслах) Дрёмы, звезды-секретаря с многотысячелетним стажем. Кассиэль работает под ее пристальным, но чуть более снисходительным надзором, а по ночам тайком рисует на полях бланков маленькие звездочки — просто так, для настроения.', 
                         arts: [
-                            { thumb: 'https://via.placeholder.com/100x100/2C2C2C/FFFFFF?text=шляпа', full: 'https://via.placeholder.com/800x600/2C2C2C/FFFFFF?text=Шляпа+и+плащ' },
-                            { thumb: 'https://via.placeholder.com/100x100/4A4A4A/FFFFFF?text=офис', full: 'https://via.placeholder.com/800x600/4A4A4A/FFFFFF?text=Офис+с+неоном' },
-                            { thumb: 'https://via.placeholder.com/100x100/6B6B6B/FFFFFF?text=револьвер', full: 'https://via.placeholder.com/800x600/6B6B6B/FFFFFF?text=Револьвер' }
+                            { thumb: 'https://4.downloader.disk.yandex.ru/preview/e56d001ba32d8c2e131bdf15066020e2a3f1a505c99701747a0ffda55948fd5c/inf/WdEXs3qu9FLzkcQezKPz5lpSOkpoAH57CsALDqEV7H5XSiLRbCr_cg-tWQ_1HkDjAQEceU4CG8YTuj3d2tW6hg%3D%3D?uid=1997596189&filename=%D0%9A%D0%B0%D1%81%D1%81%D0%B8%D1%8D%D0%BB%D1%8C_%D0%BC%D0%B8%D0%BD%D0%B8.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1997596189&tknv=v3&size=1897x826', full: 'https://2.downloader.disk.yandex.ru/preview/11c62123d4255cdf0bd45122af13a3c49cb73451131d1a902ea06168bd9aedb5/inf/IprzCTKSWzjEl0jQAWj-bVpSOkpoAH57CsALDqEV7H7H34IIZUb1SiHD6Zj8L5vJiULQgUolxb4wMKMqLHS4og%3D%3D?uid=1997596189&filename=%D0%9A%D0%B0%D1%81%D1%81%D0%B8%D1%8D%D0%BB%D1%8C_%D1%84%D1%83%D0%BB.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1997596189&tknv=v3&size=1897x826' },
+                            { thumb: ' ', full: ' ' },
+                            { thumb: ' ', full: ' ' }
                         ]
                     },
                     { 
-                        name: 'Ивлин Роуз', 
-                        folder: 'evelyn', 
-                        refs: 'певица в клубе «Альгамбра», 28 лет, на самом деле сирена.', 
-                        story: 'Спасается от охотников за нелюдями. Помогает Моргану в обмен на защиту.', 
+                        name: 'Амелия', 
+                        folder: 'amelia', 
+                        refs: 'Старший бухгалтер в Небесной Канцелярии. Выглядит на сорок с лишним человеческих лет, но на самом деле тянет лямку небесной отчетности уже восемь столетий. Под глазами — синие мешки, в которых можно утонуть, кожа бледная от вечного недосыпа. На голове — аккуратные рожки, которые она натирает воском, чтобы блестели (субординация субординацией, а внешний вид должен быть опрятным). Сзади — длинный голый крысиный хвост, которым она нервно постукивает по полу, когда устает.', 
+                        story: 'Амелия — редкий экземпляр в небесной иерархии: полукровка, дитя случайной связи демона-крысы (бывает и такое) и ангела. Она с детства умела работать цифрами так, что любые махинации выглядели как божественное провидение. Её взяли в Канцелярию на испытательный срок семьсот лет назад — и до сих пор не могут отдать приказ об увольнении, потому что, когда Амелия уходит в отпуск, небесная бухгалтерия рушится за три дня. Она ненавидит свою работу, но ненавидит её правильно — с тихим, методичным отчаянием профессионала. Иногда, когда начальство не видит, Амелия позволяет себе маленькие хитрости: перекидывает пару грехов из одной графы в другую, чуть-чуть занижает доходы особенно противным серафимам, или, наоборот, подкидывает удачу тем грешникам, которые вовремя сдают отчетность. Делает она это не из доброты — просто ей нравится наблюдать за хаосом, который потом начинается в отделах. В ее столе, в ящике с надписью «Акты сверки за первую тысячу лет», хранится личный тайный архив компромата на всех, от херувимов до архангелов. На всякий случай. Хвост вьется, зубы точатся, баланс сходится. Амелия пьет двадцатую чашку амброзийного кофе за смену и мечтает о пенсии, которая ей не светит ближайшие три тысячи лет.', 
                         arts: [
-                            { thumb: 'https://via.placeholder.com/100x100/8B4789/FFFFFF?text=платье', full: 'https://via.placeholder.com/800x600/8B4789/FFFFFF?text=Сценическое+платье' },
-                            { thumb: 'https://via.placeholder.com/100x100/5F9EA0/FFFFFF?text=вода', full: 'https://via.placeholder.com/800x600/5F9EA0/FFFFFF?text=Под+водой' },
-                            { thumb: 'https://via.placeholder.com/100x100/D2B48C/FFFFFF?text=фото', full: 'https://via.placeholder.com/800x600/D2B48C/FFFFFF?text=Старое+фото' }
+                            { thumb: 'https://2.downloader.disk.yandex.ru/preview/3fe220eeb5b18678a57d5d11117ccc93519d43c794cce41ce31dc7354a869202/inf/GEeshYth6l6ap2jZ2Jf0jRZNx0CfS7mELpKv5VT6FYuh_RfGuubB4TOyiKOd5_VbW-S9AuTvU8Zd8neW6q9Xjg%3D%3D?uid=1997596189&filename=%D0%90%D0%BC%D0%B5%D0%BB%D0%B8%D1%8F_%D0%BC%D0%B8%D0%BD%D0%B8.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1997596189&tknv=v3&size=1897x826', full: 'https://4.downloader.disk.yandex.ru/preview/7b6fc92e9fd5dfa858814f3c4aac5a7a72a75fac0f6b18793c793c8eb0803eb8/inf/fgfeVI-GeSQgEkfW9N7wYPA0POJYCy1SKdDEMuLzyzWQ00cCDzAc2uohx-HWbmVLlfZgKs6HQ7hnI67nKYlqCA%3D%3D?uid=1997596189&filename=%D0%90%D0%BC%D0%B5%D0%BB%D0%B8%D1%8F_%D1%84%D1%83%D0%BB1.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1997596189&tknv=v3&size=1897x826' },
+                            { thumb: 'https://3.downloader.disk.yandex.ru/preview/39734fdea74a2069b6ea49e5f8be5e39c2550f75562bc04ad912f26cade3ebb7/inf/DoBSQZRv1fQB-k4Y-6WnpQgZIkL8lnDhz_k9RfTi1NPJLmSSefmim9nQgPRyT_PZV9TB-DnqRgQ1R-RYjknblw%3D%3D?uid=1997596189&filename=%D0%90%D0%BC%D0%B5%D0%BB%D0%B8%D1%8F_%D1%84%D1%83%D0%BB_0.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1997596189&tknv=v3&size=1897x826', full: 'https://3.downloader.disk.yandex.ru/preview/cddd1a7b99e14a030dfe153a270e0c20e995a71b957d1e4d155876167cda3412/inf/rv91uKzn_YTVAPgi4Twf7hZNx0CfS7mELpKv5VT6FYviLI07tdsBBKy9swTWLTT_mcdTGsN2B4neMNlL1zeR4Q%3D%3D?uid=1997596189&filename=%D0%90%D0%BC%D0%B5%D0%BB%D0%B8%D1%8F_%D1%84%D1%83%D0%BB.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1997596189&tknv=v3&size=1897x826' },
+                            { thumb: 'https://3.downloader.disk.yandex.ru/preview/5972d5a44764468d20a9404fceb30b3d73b84d9900adac11914dbebcfe89379d/inf/_yCxC1HuWAkLDNrwRd3XsWQBG0meltoklYlbMoAUi8wNeURVtakahI85NiqUNGZu6QFVnDqL9m3lEgsHVaIqzw%3D%3D?uid=1997596189&filename=%D0%90%D0%BC%D0%B5%D0%BB%D0%B8%D1%8F_%D1%84%D1%83%D0%BB21.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1997596189&tknv=v3&size=1897x826', full: 'https://1.downloader.disk.yandex.ru/preview/261ffe0acd6a2739db3c2511db1a4c9656611316197ab9e43ae54df9cfe58291/inf/RdFlA9Rw8Ys1s_KkUgSBd9jjhkw6EM6QfuK-L0WNA9b8o_d5CzsTthW5k-pKgo8oASdGiMj68_GnEPI55ed71A%3D%3D?uid=1997596189&filename=%D0%90%D0%BC%D0%B5%D0%BB%D0%B8%D1%8F_%D1%84%D1%83%D0%BB2.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1997596189&tknv=v3&size=1897x826' }
+                        ]
+                    },
+					{ 
+                        name: 'Данталия', 
+                        folder: 'dantalia', 
+                        refs: '', 
+                        story: '', 
+                        arts: [
+                            { thumb: 'https://4.downloader.disk.yandex.ru/preview/c6bd31c6002df2fdf706bd2b0b505398b19102a6b5047f30031adbe55c59a42c/inf/CqH84mIwGAVwpYso2Bxt8AJ4ztLQu9xKBNNjyITGTxwm88-AkdgaZV-x_TSQBgL9wPvTKZ1hR0UR7IOwri1j3g%3D%3D?uid=1997596189&filename=%D0%94%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%D0%B8%D1%8F_%D0%BC%D0%B8%D0%BD%D0%B8.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1997596189&tknv=v3&size=1897x826', full: 'https://1.downloader.disk.yandex.ru/preview/0862dd67a4ecb75394650e9d6e43f3c0fa0e285f9a35a4cf78fca99c013f3df5/inf/15G2gft0zD9c_C1fO19NIQJ4ztLQu9xKBNNjyITGTxzsJQ8AoEkq-EUpBHStRlENcC95Vv8KuJJJq-gWLOLsxw%3D%3D?uid=1997596189&filename=%D0%94%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%D0%B8%D1%8F_%D1%84%D1%83%D0%BB.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1997596189&tknv=v3&size=1897x826' },
+                            { thumb: ' ', full: ' ' },
+                            { thumb: ' ', full: ' ' }
+                        ]
+                    },
+					{ 
+                        name: 'Пруденс', 
+                        folder: 'prudence', 
+                        refs: '', 
+                        story: '', 
+                        arts: [
+                            { thumb: 'https://1.downloader.disk.yandex.ru/preview/3b0db98c19173eeb0400450b9d17549d6fe4d979f1186dd5cc78163f217171d8/inf/yqT07lxFDYmbF5o1pprg4dk9TuYDM6vsLjwIe8KKb40n4_JmLHKJcSolTWnoOEno-AsR0siHwO1f1SVmxozuFA%3D%3D?uid=1997596189&filename=%D0%9F%D1%80%D1%83%D0%B4%D0%B5%D0%BD%D1%81_%D0%BC%D0%B8%D0%BD%D0%B8.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1997596189&tknv=v3&size=1897x826', full: 'https://2.downloader.disk.yandex.ru/preview/5ff9b463bd8b4c746fa3131e9618a16d7a1920dbe9d1414fce8410e8d230eab0/inf/ZgX0Bbx_ziMd02Df0yKy2dk9TuYDM6vsLjwIe8KKb400eSiWsY5slBJ_tsW9ev8q9vnF2Z4V_snjjubyYoykOw%3D%3D?uid=1997596189&filename=%D0%9F%D1%80%D1%83%D0%B4%D0%B5%D0%BD%D1%81_%D1%84%D1%83%D0%BB.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1997596189&tknv=v3&size=1897x826' },
+                            { thumb: 'https://4.downloader.disk.yandex.ru/preview/769309266c04ebe43cfba500b71f284f8c654d22475b7f72e6d50690ec808ab5/inf/90DxZyDmwrflVguD7o7bG2Yfl1zJMOOwa4jF1sNpqF_BKOomNbkW4L2MqlxzBVMi53WUowgiY23BxhNlf2bEEg%3D%3D?uid=1997596189&filename=%D0%9F%D1%80%D1%83%D0%B4%D0%B5%D0%BD%D1%81_%D0%BC%D0%B8%D0%BD%D0%B81.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1997596189&tknv=v3&size=1897x826', full: 'https://4.downloader.disk.yandex.ru/preview/ba8ea04ca6ff089dec5c969c4f2b0c679ecd4ad6db2c3155611399342b7c710b/inf/5PqajNdxYt8Q44xPxfpLRmDD8bKKxu9aARxml9Y6-gDU9e-xgMV4_Dm1TUoxqFlt5pLgbnLdpnOnO_FSaEbvlA%3D%3D?uid=1997596189&filename=%D0%9F%D1%80%D1%83%D0%B4%D0%B5%D0%BD%D1%81_%D1%84%D1%83%D0%BB1.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1997596189&tknv=v3&size=1897x826' },
+                            { thumb: 'https://3.downloader.disk.yandex.ru/preview/7cac01804ae18ac6f40ba1c6208e366d7feb74b5ce955fb07e871d838aa8a9b1/inf/qSaDJpV1C8VoUzRcmUxUS6D4fctdCWKGflT9KKe_Gw7tlfiSL1rCJnAAsRb2qG7NkDNbhZ2dd-Ztd9-eGkyaUw%3D%3D?uid=1997596189&filename=redizayn.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=1997596189&tknv=v3&size=1897x826', full: 'https://3.downloader.disk.yandex.ru/preview/7cac01804ae18ac6f40ba1c6208e366d7feb74b5ce955fb07e871d838aa8a9b1/inf/qSaDJpV1C8VoUzRcmUxUS6D4fctdCWKGflT9KKe_Gw7tlfiSL1rCJnAAsRb2qG7NkDNbhZ2dd-Ztd9-eGkyaUw%3D%3D?uid=1997596189&filename=redizayn.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=1997596189&tknv=v3&size=1897x826' },
+							{ thumb: 'https://3.downloader.disk.yandex.ru/preview/238ec207f8069e11b784cba9dc6476a30dfb52a678e2f6f609d931ef56c46112/inf/b7mJ79IN7VmYkOY_xSKV58YOi3_PvneOjAB6n_bOZ8tnDMiFwk7XG3KLrxVlmDo6n1jmLoKvswXx8b87BA0qwA%3D%3D?uid=1997596189&filename=Illustration58-2.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1997596189&tknv=v3&size=1897x826', full: 'https://3.downloader.disk.yandex.ru/preview/238ec207f8069e11b784cba9dc6476a30dfb52a678e2f6f609d931ef56c46112/inf/b7mJ79IN7VmYkOY_xSKV58YOi3_PvneOjAB6n_bOZ8tnDMiFwk7XG3KLrxVlmDo6n1jmLoKvswXx8b87BA0qwA%3D%3D?uid=1997596189&filename=Illustration58-2.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1997596189&tknv=v3&size=1897x826' },
+							{ thumb: 'https://3.downloader.disk.yandex.ru/preview/86420019baeeff483fef16598358a095d69825e680dcbee620e4e321fed34544/inf/teZahgrIgFiaRYbrUjD9i8YOi3_PvneOjAB6n_bOZ8sYB-GUQ-Y2A-61DWXHn1x8i3BHjFoPvvC7mstmCkgK7g%3D%3D?uid=1997596189&filename=Illustration58-1.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1997596189&tknv=v3&size=1897x826', full: 'https://3.downloader.disk.yandex.ru/preview/86420019baeeff483fef16598358a095d69825e680dcbee620e4e321fed34544/inf/teZahgrIgFiaRYbrUjD9i8YOi3_PvneOjAB6n_bOZ8sYB-GUQ-Y2A-61DWXHn1x8i3BHjFoPvvC7mstmCkgK7g%3D%3D?uid=1997596189&filename=Illustration58-1.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1997596189&tknv=v3&size=1897x826' },
+							{ thumb: 'https://2.downloader.disk.yandex.ru/preview/ce3301b218decab28f15d622fa9d664cbe12d8081f367b78514f3b7a0bd2152a/inf/-Y0elsYUsM0RjO455sfMEF38VBj5gcAsM5TW_m9-hFkpjOZYfR_WrWUETs8Lz_r79RAz58n1893FJuJ2tl41cQ%3D%3D?uid=1997596189&filename=1-1.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=1997596189&tknv=v3&size=1897x826', full: 'https://2.downloader.disk.yandex.ru/preview/ce3301b218decab28f15d622fa9d664cbe12d8081f367b78514f3b7a0bd2152a/inf/-Y0elsYUsM0RjO455sfMEF38VBj5gcAsM5TW_m9-hFkpjOZYfR_WrWUETs8Lz_r79RAz58n1893FJuJ2tl41cQ%3D%3D?uid=1997596189&filename=1-1.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=1997596189&tknv=v3&size=1897x826' },
+							{ thumb: 'https://4.downloader.disk.yandex.ru/preview/9fa9b473e143e8ce3fd0b9974033d7900ea6ecb2b230a188021539de0d48b054/inf/HxA9tK0UxN9TbyvxYmPyZV38VBj5gcAsM5TW_m9-hFlwWOgPhURv1ccyTfTtoCxI4lrwptzoYbuZ8F439mpDLQ%3D%3D?uid=1997596189&filename=2-2.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=1997596189&tknv=v3&size=1897x826', full: 'https://4.downloader.disk.yandex.ru/preview/9fa9b473e143e8ce3fd0b9974033d7900ea6ecb2b230a188021539de0d48b054/inf/HxA9tK0UxN9TbyvxYmPyZV38VBj5gcAsM5TW_m9-hFlwWOgPhURv1ccyTfTtoCxI4lrwptzoYbuZ8F439mpDLQ%3D%3D?uid=1997596189&filename=2-2.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=1997596189&tknv=v3&size=1897x826' },
+							{ thumb: 'https://1.downloader.disk.yandex.ru/preview/3ebaa07790289dff75ae7f24e6145ead2bbe81b37248b2a7a2b8634912eb94eb/inf/GAL9PjOvSYMCqrFOGTfyG138VBj5gcAsM5TW_m9-hFnQ3XUeCTQJdQGDZ-oStWoi_7jc-dbCYNGmlyb_-679UQ%3D%3D?uid=1997596189&filename=3-3.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=1997596189&tknv=v3&size=1897x826', full: 'https://1.downloader.disk.yandex.ru/preview/3ebaa07790289dff75ae7f24e6145ead2bbe81b37248b2a7a2b8634912eb94eb/inf/GAL9PjOvSYMCqrFOGTfyG138VBj5gcAsM5TW_m9-hFnQ3XUeCTQJdQGDZ-oStWoi_7jc-dbCYNGmlyb_-679UQ%3D%3D?uid=1997596189&filename=3-3.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=1997596189&tknv=v3&size=1897x826' }
                         ]
                     }
                 ]
@@ -735,9 +771,9 @@
                         refs: '16 лет, может становиться невидимым в тумане.', 
                         story: 'Ирландский парень, переехал в Америку. Сестра пропала при загадочных обстоятельствах.', 
                         arts: [
-                            { thumb: 'https://via.placeholder.com/100x100/708090/FFFFFF?text=худи', full: 'https://via.placeholder.com/800x600/708090/FFFFFF?text=Худи+с+капюшоном' },
-                            { thumb: 'https://via.placeholder.com/100x100/526F7F/FFFFFF?text=переулок', full: 'https://via.placeholder.com/800x600/526F7F/FFFFFF?text=Туманный+переулок' },
-                            { thumb: 'https://via.placeholder.com/100x100/3F5E6E/FFFFFF?text=дневник', full: 'https://via.placeholder.com/800x600/3F5E6E/FFFFFF?text=Старый+дневник' }
+                            { thumb: ' ', full: ' ' },
+                            { thumb: ' ', full: ' ' },
+                            { thumb: ' ', full: ' ' }
                         ]
                     }
                 ]
@@ -776,9 +812,9 @@
                         refs: 'принцесса, 19 лет, наследница престола. Обладает даром видеть ложь.', 
                         story: 'Скрывается от убийц, посланных узурпатором. Должна найти древний артефакт, чтобы доказать своё право на трон.', 
                         arts: [
-                            { thumb: 'https://via.placeholder.com/100x100/8B0000/FFFFFF?text=портрет', full: 'https://via.placeholder.com/800x600/8B0000/FFFFFF?text=Портрет+принцессы' },
-                            { thumb: 'https://via.placeholder.com/100x100/A52A2A/FFFFFF?text=корона', full: 'https://via.placeholder.com/800x600/A52A2A/FFFFFF?text=Корона' },
-                            { thumb: 'https://via.placeholder.com/100x100/BC8F8F/FFFFFF?text=платье', full: 'https://via.placeholder.com/800x600/BC8F8F/FFFFFF?text=Дорожное+платье' }
+                            { thumb: ' ', full: ' ' },
+                            { thumb: ' ', full: ' ' },
+                            { thumb: ' ', full: ' ' }
                         ]
                     },
                     { 
@@ -787,9 +823,9 @@
                         refs: 'таинственный воин в чёрных доспехах, возраст неизвестен.', 
                         story: 'Никто не знает его настоящего имени. Он появился в день переворота и спас принцессу. Кажется, он служил ещё её деду.', 
                         arts: [
-                            { thumb: 'https://via.placeholder.com/100x100/2F4F4F/FFFFFF?text=доспех', full: 'https://via.placeholder.com/800x600/2F4F4F/FFFFFF?text=Чёрные+доспехи' },
-                            { thumb: 'https://via.placeholder.com/100x100/4A5D5D/FFFFFF?text=шлем', full: 'https://via.placeholder.com/800x600/4A5D5D/FFFFFF?text=Шлем+с+забралом' },
-                            { thumb: 'https://via.placeholder.com/100x100/696969/FFFFFF?text=меч', full: 'https://via.placeholder.com/800x600/696969/FFFFFF?text=Древний+меч' }
+                            { thumb: ' ', full: ' ' },
+                            { thumb: ' ', full: ' ' },
+                            { thumb: ' ', full: ' ' }
                         ]
                     }
                 ]
@@ -828,9 +864,9 @@
                         refs: 'капитан, 35 лет. Бывший военный, хладнокровна и решительна.', 
                         story: 'Командует кораблём "Надежда". В прошлом потеряла экипаж во время аналогичной миссии и теперь хочет узнать правду.', 
                         arts: [
-                            { thumb: 'https://via.placeholder.com/100x100/4682B4/FFFFFF?text=форма', full: 'https://via.placeholder.com/800x600/4682B4/FFFFFF?text=Капитанская+форма' },
-                            { thumb: 'https://via.placeholder.com/100x100/5F9EA0/FFFFFF?text=шлем', full: 'https://via.placeholder.com/800x600/5F9EA0/FFFFFF?text=Шлем+скафандра' },
-                            { thumb: 'https://via.placeholder.com/100x100/B0C4DE/FFFFFF?text=мостик', full: 'https://via.placeholder.com/800x600/B0C4DE/FFFFFF?text=Капитанский+мостик' }
+                            { thumb: ' ', full: ' ' },
+                            { thumb: ' ', full: ' ' },
+                            { thumb: ' ', full: ' ' }
                         ]
                     },
                     { 
@@ -839,9 +875,9 @@
                         refs: 'пилот, 28 лет. Технический гений, но замкнут и нелюдим.', 
                         story: 'Родился на колонии, уничтоженной пиратами. С тех пор ненавидит одиночество и предпочитает общество машин.', 
                         arts: [
-                            { thumb: 'https://via.placeholder.com/100x100/2F4F4F/FFFFFF?text=пилот', full: 'https://via.placeholder.com/800x600/2F4F4F/FFFFFF?text=Пилотский+комбинезон' },
-                            { thumb: 'https://via.placeholder.com/100x100/4A5D5D/FFFFFF?text=дрон', full: 'https://via.placeholder.com/800x600/4A5D5D/FFFFFF?text=Ремонтный+дрон' },
-                            { thumb: 'https://via.placeholder.com/100x100/696969/FFFFFF?text=кабина', full: 'https://via.placeholder.com/800x600/696969/FFFFFF?text=Кабина+пилота' }
+                            { thumb: ' ', full: ' ' },
+                            { thumb: ' ', full: ' ' },
+                            { thumb: ' ', full: ' ' }
                         ]
                     }
                 ]
@@ -880,9 +916,9 @@
                         refs: 'дракон, 120 лет. Огненно-красный, последний из своего выводка.', 
                         story: 'Последний дракон, уцелевший после эпидемии. С детства связан с Арраном и готов на всё, чтобы спасти друга.', 
                         arts: [
-                            { thumb: 'https://via.placeholder.com/100x100/DC143C/FFFFFF?text=дракон', full: 'https://via.placeholder.com/800x600/DC143C/FFFFFF?text=Огненный+дракон' },
-                            { thumb: 'https://via.placeholder.com/100x100/B22222/FFFFFF?text=крылья', full: 'https://via.placeholder.com/800x600/B22222/FFFFFF?text=Расправленные+крылья' },
-                            { thumb: 'https://via.placeholder.com/100x100/CD5C5C/FFFFFF?text=чешуя', full: 'https://via.placeholder.com/800x600/CD5C5C/FFFFFF?text=Крупный+план+чешуи' }
+                            { thumb: ' ', full: ' ' },
+                            { thumb: ' ', full: ' ' },
+                            { thumb: ' ', full: ' ' }
                         ]
                     },
                     { 
@@ -891,9 +927,9 @@
                         refs: 'человек, 24 года. Наездник дракона, следопыт.', 
                         story: 'Вырос рядом с драконьим логовом. Первый за сто лет человек, с которым заключил союз дракон. Пропал при загадочных обстоятельствах.', 
                         arts: [
-                            { thumb: 'https://via.placeholder.com/100x100/228B22/FFFFFF?text=следопыт', full: 'https://via.placeholder.com/800x600/228B22/FFFFFF?text=Одежда+следопыта' },
-                            { thumb: 'https://via.placeholder.com/100x100/32CD32/FFFFFF?text=лук', full: 'https://via.placeholder.com/800x600/32CD32/FFFFFF?text=Длинный+лук' },
-                            { thumb: 'https://via.placeholder.com/100x100/6B8E23/FFFFFF?text=амулет', full: 'https://via.placeholder.com/800x600/6B8E23/FFFFFF?text=Амулет+связи' }
+                            { thumb: ' ', full: ' ' },
+                            { thumb: ' ', full: ' ' },
+                            { thumb: ' ', full: ' ' }
                         ]
                     }
                 ]
@@ -932,9 +968,9 @@
                         refs: 'студент, 20 лет. После инициации обретает способность видеть тени.', 
                         story: 'Случайно увидел монстра и был спасён охотниками. Согласился на инициацию, чтобы найти пропавшую сестру.', 
                         arts: [
-                            { thumb: 'https://via.placeholder.com/100x100/2C3E50/FFFFFF?text=куртка', full: 'https://via.placeholder.com/800x600/2C3E50/FFFFFF?text=Кожаная+куртка' },
-                            { thumb: 'https://via.placeholder.com/100x100/34495E/FFFFFF?text=амулет', full: 'https://via.placeholder.com/800x600/34495E/FFFFFF?text=Защитный+амулет' },
-                            { thumb: 'https://via.placeholder.com/100x100/7F8C8D/FFFFFF?text=клинок', full: 'https://via.placeholder.com/800x600/7F8C8D/FFFFFF?text=Серебряный+клинок' }
+                            { thumb: ' ', full: ' ' },
+                            { thumb: ' ', full: ' ' },
+                            { thumb: ' ', full: ' ' }
                         ]
                     },
                     { 
@@ -943,9 +979,9 @@
                         refs: 'ветеран охотников, 45 лет. Носит плащ и шляпу.', 
                         story: 'Охотится на нечисть уже 20 лет. Потерял семью из-за вампиров, поэтому жесток и беспощаден к монстрам.', 
                         arts: [
-                            { thumb: 'https://via.placeholder.com/100x100/4A4A4A/FFFFFF?text=плащ', full: 'https://via.placeholder.com/800x600/4A4A4A/FFFFFF?text=Длинный+плащ' },
-                            { thumb: 'https://via.placeholder.com/100x100/5D6D7E/FFFFFF?text=арбалет', full: 'https://via.placeholder.com/800x600/5D6D7E/FFFFFF?text=Арбалет' },
-                            { thumb: 'https://via.placeholder.com/100x100/6C7A89/FFFFFF?text=шляпа', full: 'https://via.placeholder.com/800x600/6C7A89/FFFFFF?text=Шляпа' }
+                            { thumb: ' ', full: ' ' },
+                            { thumb: ' ', full: ' ' },
+                            { thumb: ' ', full: ' ' }
                         ]
                     }
                 ]
@@ -984,9 +1020,9 @@
                         refs: 'изобретатель, 50 лет. Гениальный механик, но одинок.', 
                         story: 'Посвятил жизнь созданию искусственного разума. Когда его творение ожило, он понял, что создал не машину, а друга.', 
                         arts: [
-                            { thumb: 'https://via.placeholder.com/100x100/8B4513/FFFFFF?text=мастер', full: 'https://via.placeholder.com/800x600/8B4513/FFFFFF?text=Мастерская' },
-                            { thumb: 'https://via.placeholder.com/100x100/A0522D/FFFFFF?text=чертежи', full: 'https://via.placeholder.com/800x600/A0522D/FFFFFF?text=Чертежи+андроида' },
-                            { thumb: 'https://via.placeholder.com/100x100/CD853F/FFFFFF?text=очки', full: 'https://via.placeholder.com/800x600/CD853F/FFFFFF?text=Очки+механика' }
+                            { thumb: ' ', full: ' ' },
+                            { thumb: ' ', full: ' ' },
+                            { thumb: ' ', full: ' ' }
                         ]
                     },
                     { 
@@ -995,9 +1031,9 @@
                         refs: 'андроид, внешне похож на юношу. Механическое сердце бьётся в груди.', 
                         story: 'Создан из латуни и стали, но способен чувствовать. Не понимает, почему люди боятся его.', 
                         arts: [
-                            { thumb: 'https://via.placeholder.com/100x100/B8860B/FFFFFF?text=андроид', full: 'https://via.placeholder.com/800x600/B8860B/FFFFFF?text=Андроид' },
-                            { thumb: 'https://via.placeholder.com/100x100/DAA520/FFFFFF?text=сердце', full: 'https://via.placeholder.com/800x600/DAA520/FFFFFF?text=Механическое+сердце' },
-                            { thumb: 'https://via.placeholder.com/100x100/FFD700/FFFFFF?text=шестерни', full: 'https://via.placeholder.com/800x600/FFD700/FFFFFF?text=Шестерни' }
+                            { thumb: ' ', full: ' ' },
+                            { thumb: ' ', full: ' ' },
+                            { thumb: ' ', full: ' ' }
                         ]
                     }
                 ]
@@ -1036,9 +1072,9 @@
                         refs: 'художница, 24 года. Живёт одна и рисует свои кошмары.', 
                         story: 'С детства видит странные сны. После смерти бабушки кошмары становятся реальностью. Оказывается, дар передаётся по наследству.', 
                         arts: [
-                            { thumb: 'https://via.placeholder.com/100x100/4B0082/FFFFFF?text=кисти', full: 'https://via.placeholder.com/800x600/4B0082/FFFFFF?text=Кисти' },
-                            { thumb: 'https://via.placeholder.com/100x100/483D8B/FFFFFF?text=комната', full: 'https://via.placeholder.com/800x600/483D8B/FFFFFF?text=Тёмная+комната' },
-                            { thumb: 'https://via.placeholder.com/100x100/6A5ACD/FFFFFF?text=картина', full: 'https://via.placeholder.com/800x600/6A5ACD/FFFFFF?text=Страшная+картина' }
+                            { thumb: ' ', full: ' ' },
+                            { thumb: ' ', full: ' ' },
+                            { thumb: ' ', full: ' ' }
                         ]
                     },
                     { 
@@ -1047,9 +1083,9 @@
                         refs: 'существо из снов Лены, состоит из тьмы.', 
                         story: 'Не совсем монстр. Оно пытается предупредить Лену об опасности, но из-за страха девушки выглядит угрожающе.', 
                         arts: [
-                            { thumb: 'https://via.placeholder.com/100x100/2F4F4F/FFFFFF?text=тень', full: 'https://via.placeholder.com/800x600/2F4F4F/FFFFFF?text=Тень' },
-                            { thumb: 'https://via.placeholder.com/100x100/4A5D5D/FFFFFF?text=силуэт', full: 'https://via.placeholder.com/800x600/4A5D5D/FFFFFF?text=Силуэт' },
-                            { thumb: 'https://via.placeholder.com/100x100/696969/FFFFFF?text=глаза', full: 'https://via.placeholder.com/800x600/696969/FFFFFF?text=Горящие+глаза' }
+                            { thumb: ' ', full: ' ' },
+                            { thumb: ' ', full: ' ' },
+                            { thumb: ' ', full: ' ' }
                         ]
                     }
                 ]
@@ -1099,7 +1135,7 @@
             return book.characters.find(ch => ch.folder === folderName) || null;
         }
 
-        // ========== ХЛЕБНЫЕ КРОШКИ ==========
+        // ========== НАВИГАЦИОННАЯ ЦЕПОЧКА ==========
         function renderBreadcrumb() {
             let html = '<a href="#"><i class="fas fa-book-open"></i> Все миры</a>';
             const route = currentRoute;
@@ -1136,7 +1172,7 @@
         function renderHome() {
             let html = `
                 <h1><i class="fas fa-chess-queen"></i> Хранилище миров</h1>
-                <div class="subhead">Книги, персонажи, референсы и истории — всё в папках</div>
+                <div class="subhead">Книги, персонажи, референсы и истории</div>
                 <div class="grid-cards">
             `;
             booksData.forEach(book => {
@@ -1181,7 +1217,7 @@
                         <div class="folder-header"><i class="fas fa-folder"></i><h2> Книга</h2></div>
                         <div class="inside-folder">
                             <p style="margin-bottom:1.5rem;">Содержание, главы, сюжет.</p>
-                            <a href="#book/${book.id}/plot" class="folder-link-inside"><i class="fas fa-scroll"></i> читать сюжет (книга с главами)</a>
+                            <a href="#book/${book.id}/plot" class="folder-link-inside"><i class="fas fa-scroll"></i> читать сюжет (книга по главам)</a>
                         </div>
                     </div>
                     <div class="section-folder">
@@ -1281,7 +1317,7 @@
                 <div class="character-page">
                     <div>
                         <div>
-                            <h3><i class="fas fa-id-card"></i> референсы</h3>
+                            <h3><i class="fas fa-id-card"></i> о персонаже</h3>
                             <p style="background:white; border-radius:28px; padding:1.5rem;">${character.refs}</p>
                             <h3 style="margin-top:1.8rem;"><i class="fas fa-feather"></i> история</h3>
                             <p style="background:white; border-radius:28px; padding:1.5rem;">${character.story}</p>
@@ -1345,15 +1381,18 @@
     <div class="author-credits">
         <div class="author-row">
             <span class="author-name"><i class="fas fa-sun"></i> Lorian_De_Lo</span>
-            <a href="#"><i class="fab fa-vk"></i> ВКонтакте</a>
-            <a href="#"><i class="fab fa-telegram"></i> Telegram</a>
-            <a href="#"><i class="fas fa-envelope"></i> lorian.delo@googlemail.com</a>
+            <a href="https://vk.com/lorian_de_lo" target="_blank" rel="noopener noreferrer"><i class="fab fa-vk"></i> ВКонтакте</a>
+            <a href="https://t.me/lorian_de_lo" target="_blank" rel="noopener noreferrer"><i class="fab fa-telegram"></i> Telegram</a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mitsukolorian1@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope"></i> mitsukolorian1@gmail.com
+</a>
         </div>
         <div class="author-row">
             <span class="author-name"><i class="fas fa-moon"></i> SkyNightFox0</span>
-            <a href="#"><i class="fab fa-vk"></i> ВКонтакте</a>
-            <a href="#"><i class="fab fa-telegram"></i> Telegram</a>
-            <a href="#"><i class="fas fa-envelope"></i> sky.fox0@googlemail.com</a>
+            <a href="https://vk.com/skynightfox0" target="_blank" rel="noopener noreferrer"><i class="fab fa-vk"></i> ВКонтакте</a>
+            <a href="https://t.me/SkyNightFox" target="_blank" rel="noopener noreferrer"><i class="fab fa-telegram"></i> Telegram</a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=Semenisevakata7@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope"></i> Semenisevakata7@gmail.com
+
+</a>
         </div>
     </div>
     <div class="footer-note">Все права на книги и персонажей принадлежат указанным авторам.</div>
