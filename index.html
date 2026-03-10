@@ -398,43 +398,16 @@
             border: 1px solid #e4cfbf;
             word-break: break-word;
             overflow-wrap: break-word;
-            text-align: justify;
-            min-height: 200px;
+            text-align: justify; /* выравнивание по ширине */
         }
 
         .chapter-content p {
-            text-indent: 30px;
-            margin: 0 0 15px 0;
+            text-indent: 30px; /* красная строка - отступ первой строки */
+            margin: 0 0 15px 0; /* отступ между абзацами */
         }
 
         .chapter-content p:last-child {
-            margin-bottom: 0;
-        }
-
-        /* ИНДИКАТОР ЗАГРУЗКИ */
-        .loading {
-            text-align: center;
-            padding: 3rem;
-            color: #a75b36;
-        }
-        
-        .loading i {
-            margin-right: 0.5rem;
-            animation: spin 1s infinite linear;
-        }
-        
-        @keyframes spin {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(360deg); }
-        }
-        
-        .error-message {
-            text-align: center;
-            padding: 2rem;
-            color: #a75b36;
-            background: #fff5ed;
-            border-radius: 28px;
-            border: 1px solid #ddc8ba;
+            margin-bottom: 0; /* убирание отступа у последнего абзаца */
         }
 
         /* ========== СТРАНИЦА ПЕРСОНАЖА ========== */
@@ -647,23 +620,37 @@
                     { 
                         id: 'rgeA', 
                         title: 'Аннотация: Знакомство с Малахитом', 
-                        // Вместо content используем file для указания пути к HTML-файлу
-                        file: 'https://mitsukolorian1.github.io/Storage-of-Worlds1/'
+                        content: `<p>Сад шептал. 
+						Не голосами птиц или журчанием фонтана, а тихим, зудящим бормотанием отчаяния.
+						Здесь, под сенью увитых розами арок беседки, томился Малахит, некогда бич небес, теперь – садовник поневоле.</p>
+                       <p>Просторный дом, маячивший за зарослями лаванды, был не убежищем, а злой иронией.
+						В его стенах кипела жизнь: смех детей, звон посуды, тепло камина.
+						Всё, чего Малахит, демонический князь, мог коснуться лишь своей ненавистью.
+						Его заточили сюда, в это воплощение мирского благополучия, чтобы он познал бессилие перед простой радостью.</p>
+                       <p>Заклинание плела не колдунья, а ангел. Ее голос, как колокольный звон, сковал его душу с этой землей.
+						Он должен был охранять сад, оберегать его от скверны, которой сам был пропитан.
+						Каждая взрыхленная им грядка, каждый политый цветок обжигали его демоническую плоть.</p> 
+					   <p>Но Малахит был терпелив. Он знал: даже рай может скрывать гниль.
+						Он видел, как в тени дома зреют зависть и ложь.
+						Он чувствовал, как сад, впитанный его тьмой, источает удушливый аромат лицемерия.
+						И ждал. Ждал момента, когда хрупкий фасад счастья рухнет, и тогда, из пепла этой идиллической тюрьмы, он вновь восстанет, не демоном-садовником, а Князем Разрушения. 
+						Его месть будет не громкой, а тихой, въедливой, словно яд, просочившийся в самые корни этого проклятого сада.</p>`
                     },
                     { 
                         id: 'rge0', 
                         title: 'Пролог:', 
-                        file: 'chapters/rot-in-the-garden-of-eden/rge0.html'
+                       file: 'https://github.com/mitsukolorian1/Storage-of-Worlds/blob/main/chapters/rot-in-the-garden-of-eden/rgeA.html'
+<p></p>` 
                     },
                     { 
                         id: 'rge1', 
                         title: 'Глава 1:', 
-                        file: 'chapters/rot-in-the-garden-of-eden/rge1.html'
+                        content: `<p></p>` 
                     },
 					{ 
                         id: 'rge2', 
                         title: 'Глава 2:', 
-                        file: 'chapters/rot-in-the-garden-of-eden/rge2.html'
+                        content: `<p></p>` 
                     }
                 ],
                 characters: [
@@ -700,22 +687,26 @@
                     { 
                         id: 'snbdA', 
                         title: 'Аннотация:', 
-                        file: 'chapters/sweet-nightmares-and-bitter-dreams/snbdA.html'
+                        content: `<p></p>
+                        <p></p>` 
                     },
 					{ 
                         id: 'snbd0', 
                         title: 'Пролог:', 
-                        file: 'chapters/sweet-nightmares-and-bitter-dreams/snbd0.html'
+                        content: `<p></p>
+                        <p></p>` 
                     },
 					{ 
                         id: 'snbd1', 
                         title: 'Глава 1:', 
-                        file: 'chapters/sweet-nightmares-and-bitter-dreams/snbd1.html'
+                        content: `<p></p>
+                        <p></p>` 
                     },
                     { 
                         id: 'snbd2', 
                         title: 'Глава 2:', 
-                        file: 'chapters/sweet-nightmares-and-bitter-dreams/snbd2.html'
+                        content: `<p></p>
+                        <p></p>` 
                     }
                 ],
                 characters: [
@@ -778,22 +769,26 @@
                      { 
                         id: 'cmA', 
                         title: 'Аннотация:', 
-                        file: 'chapters/children-of-mist/cmA.html'
+                        content: `<p></p>
+                        <p></p>` 
                     },
 					{ 
                         id: 'cm0', 
                         title: 'Пролог:', 
-                        file: 'chapters/children-of-mist/cm0.html'
+                        content: `<p></p>
+                        <p></p>` 
                     },
 					{ 
                         id: 'cm1', 
                         title: 'Глава 1:', 
-                        file: 'chapters/children-of-mist/cm1.html'
+                        content: `<p></p>
+                        <p></p>` 
                     },
                     { 
                         id: 'cm2', 
                         title: 'Глава 2:', 
-                        file: 'chapters/children-of-mist/cm2.html'
+                        content: `<p></p>
+                        <p></p>` 
                     }
                 ],
                 characters: [
@@ -818,25 +813,29 @@
                 description: 'Интриги, дворцовые перевороты и древние пророчества.', 
                 plot: 'Наследница престола вынуждена бежать после переворота. Её сопровождает загадочный страж.', 
                 chapters: [
-					{ 
+{ 
                         id: 'ctA', 
                         title: 'Аннотация:', 
-                        file: 'chapters/crimson-throne/ctA.html'
+                        content: `<p></p>
+                        <p></p>` 
                     },
 					{ 
                         id: 'ct0', 
                         title: 'Пролог:', 
-                        file: 'chapters/crimson-throne/ct0.html'
+                        content: `<p></p>
+                        <p></p>` 
                     },
 					{ 
                         id: 'ct1', 
                         title: 'Глава 1:', 
-                        file: 'chapters/crimson-throne/ct1.html'
+                        content: `<p></p>
+                        <p></p>` 
                     },
                     { 
                         id: 'ct2', 
                         title: 'Глава 2:', 
-                        file: 'chapters/crimson-throne/ct2.html'
+                        content: `<p></p>
+                        <p></p>` 
                     }
                 ],
                 characters: [
@@ -872,25 +871,29 @@
                 description: 'Далёкое будущее, искусственный интеллект и потерянные колонии.', 
                 plot: 'Экипаж разведывательного корабля находит сигнал с погибшей станции. То, что они обнаруживают, меняет всё.', 
                 chapters: [
-                    { 
+                   { 
                         id: 'evA', 
                         title: 'Аннотация:', 
-                        file: 'chapters/echoes-of-void/evA.html'
+                        content: `<p></p>
+                        <p></p>` 
                     },
 					{ 
                         id: 'ev0', 
                         title: 'Пролог:', 
-                        file: 'chapters/echoes-of-void/ev0.html'
+                        content: `<p></p>
+                        <p></p>` 
                     },
 					{ 
                         id: 'ev1', 
                         title: 'Глава 1:', 
-                        file: 'chapters/echoes-of-void/ev1.html'
+                        content: `<p></p>
+                        <p></p>` 
                     },
                     { 
                         id: 'ev2', 
                         title: 'Глава 2:', 
-                        file: 'chapters/echoes-of-void/ev2.html'
+                        content: `<p></p>
+                        <p></p>` 
                     }
                 ],
                 characters: [
@@ -926,25 +929,29 @@
                 description: 'Мир, где люди и драконы были союзниками, но времена изменились.', 
                 plot: 'Молодой дракон отправляется на поиски пропавшего наездника. Ему предстоит узнать правду о войне людей и драконов.', 
                 chapters: [
-                    { 
+                   { 
                         id: 'ldA', 
                         title: 'Аннотация:', 
-                        file: 'chapters/last-dragon/ldA.html'
+                        content: `<p></p>
+                        <p></p>` 
                     },
 					{ 
                         id: 'ld0', 
                         title: 'Пролог:', 
-                        file: 'chapters/last-dragon/ld0.html'
+                        content: `<p></p>
+                        <p></p>` 
                     },
 					{ 
                         id: 'ld1', 
                         title: 'Глава 1:', 
-                        file: 'chapters/last-dragon/ld1.html'
+                        content: `<p></p>
+                        <p></p>` 
                     },
                     { 
                         id: 'ld2', 
                         title: 'Глава 2:', 
-                        file: 'chapters/last-dragon/ld2.html'
+                        content: `<p></p>
+                        <p></p>` 
                     }
                 ],
                 characters: [
@@ -983,22 +990,26 @@
                     { 
                         id: 'shA', 
                         title: 'Аннотация:', 
-                        file: 'chapters/shadow-hunters/shA.html'
+                        content: `<p></p>
+                        <p></p>` 
                     },
 					{ 
                         id: 'sh0', 
                         title: 'Пролог:', 
-                        file: 'chapters/shadow-hunters/sh0.html'
+                        content: `<p></p>
+                        <p></p>` 
                     },
 					{ 
                         id: 'sh1', 
                         title: 'Глава 1:', 
-                        file: 'chapters/shadow-hunters/sh1.html'
+                        content: `<p></p>
+                        <p></p>` 
                     },
                     { 
                         id: 'sh2', 
                         title: 'Глава 2:', 
-                        file: 'chapters/shadow-hunters/sh2.html'
+                        content: `<p></p>
+                        <p></p>` 
                     }
                 ],
                 characters: [
@@ -1037,22 +1048,26 @@
                     { 
                         id: 'chA', 
                         title: 'Аннотация:', 
-                        file: 'chapters/clockwork-heart/chA.html'
+                        content: `<p></p>
+                        <p></p>` 
                     },
 					{ 
                         id: 'ch0', 
                         title: 'Пролог:', 
-                        file: 'chapters/clockwork-heart/ch0.html'
+                        content: `<p></p>
+                        <p></p>` 
                     },
 					{ 
                         id: 'ch1', 
                         title: 'Глава 1:', 
-                        file: 'chapters/clockwork-heart/ch1.html'
+                        content: `<p></p>
+                        <p></p>` 
                     },
                     { 
                         id: 'ch2', 
                         title: 'Глава 2:', 
-                        file: 'chapters/clockwork-heart/ch2.html'
+                        content: `<p></p>
+                        <p></p>` 
                     }
                 ],
                 characters: [
@@ -1091,22 +1106,26 @@
                     { 
                         id: 'snA', 
                         title: 'Аннотация:', 
-                        file: 'chapters/sweet-nightmares/snA.html'
+                        content: `<p></p>
+                        <p></p>` 
                     },
 					{ 
                         id: 'sn0', 
                         title: 'Пролог:', 
-                        file: 'chapters/sweet-nightmares/sn0.html'
+                        content: `<p></p>
+                        <p></p>` 
                     },
 					{ 
                         id: 'sn1', 
                         title: 'Глава 1:', 
-                        file: 'chapters/sweet-nightmares/sn1.html'
+                        content: `<p></p>
+                        <p></p>` 
                     },
                     { 
                         id: 'sn2', 
                         title: 'Глава 2:', 
-                        file: 'chapters/sweet-nightmares/sn2.html'
+                        content: `<p></p>
+                        <p></p>` 
                     }
                 ],
                 characters: [
@@ -1310,62 +1329,25 @@
             contentDiv.innerHTML = html;
         }
 
-        // ========== СТРАНИЦА ГЛАВЫ (теперь загружает из файла) ==========
-        async function renderChapterPage(bookId, chapterId) {
+        // ========== СТРАНИЦА ГЛАВЫ ==========
+        function renderChapterPage(bookId, chapterId) {
             const book = findBook(bookId);
-            if (!book) { 
-                contentDiv.innerHTML = '<h2>Книга не найдена</h2>'; 
-                return; 
-            }
-            
+            if (!book) { contentDiv.innerHTML = '<h2>Книга не найдена</h2>'; return; }
             const chapter = book.chapters?.find(ch => ch.id === chapterId);
-            if (!chapter) { 
-                contentDiv.innerHTML = '<h2>Глава не найдена</h2>'; 
-                return; 
-            }
+            if (!chapter) { contentDiv.innerHTML = '<h2>Глава не найдена</h2>'; return; }
 
-            // Показываем индикатор загрузки
-            contentDiv.innerHTML = `
+            let html = `
                 <h1><i class="fas fa-feather"></i> ${book.title}</h1>
                 <div class="chapter-page">
                     <div class="chapter-title">${chapter.title}</div>
-                    <div class="chapter-content" id="chapter-content">
-                        <div class="loading">
-                            <i class="fas fa-spinner"></i> Загрузка главы...
-                        </div>
-                    </div>
+                    <div class="chapter-content">${chapter.content}</div>
                 </div>
                 <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
                     <a href="#book/${book.id}/plot" class="back-home"><i class="fas fa-arrow-left"></i> к оглавлению</a>
                     <a href="#book/${book.id}" class="back-home"><i class="fas fa-folder-open"></i> страница книги</a>
                 </div>
             `;
-
-            try {
-                // Загружаем содержимое из файла
-                const response = await fetch(chapter.file);
-                if (!response.ok) {
-                    throw new Error(`Файл не найден: ${response.status}`);
-                }
-                let content = await response.text();
-                
-                // Оборачиваем содержимое в теги p для красной строки, если там просто текст
-                if (!content.includes('<p>')) {
-                    content = content.split('\n\n').map(paragraph => 
-                        paragraph.trim() ? `<p>${paragraph.replace(/\n/g, ' ')}</p>` : ''
-                    ).join('');
-                }
-                
-                document.getElementById('chapter-content').innerHTML = content;
-            } catch (error) {
-                console.error('Ошибка загрузки главы:', error);
-                document.getElementById('chapter-content').innerHTML = `
-                    <div class="error-message">
-                        <i class="fas fa-exclamation-triangle"></i> 
-                        Не удалось загрузить главу. Проверьте файл: <strong>${chapter.file}</strong>
-                    </div>
-                `;
-            }
+            contentDiv.innerHTML = html;
         }
 
         // ========== СТРАНИЦА ПЕРСОНАЖА ==========
@@ -1379,13 +1361,11 @@
             if (character.arts && character.arts.length) {
                 artsGrid = '<div class="art-thumb-grid">';
                 character.arts.forEach((art, index) => {
-                    if (art.thumb && art.thumb.trim() !== '') {
-                        artsGrid += `
-                            <div class="art-thumb" onclick="window.openModal('${art.full}')">
-                                <img src="${art.thumb}" alt="Арт ${index+1}" loading="lazy">
-                            </div>
-                        `;
-                    }
+                    artsGrid += `
+                        <div class="art-thumb" onclick="window.openModal('${art.full}')">
+                            <img src="${art.thumb}" alt="Арт ${index+1}" loading="lazy">
+                        </div>
+                    `;
                 });
                 artsGrid += '</div>';
             } else {
@@ -1483,4 +1463,3 @@
 </body>
 
 </html>
-
